@@ -20,3 +20,27 @@ nodemonインストールコマンドあり
   - package.jsonが生成
   - gitアイコン271の表示
   - added 30 packages in 1s の表示(node_modulesの中身が多い)
+
+## node_modules
+- この中に
+- サードパーティー製のライブラリがinstallされていて
+- node_modulesを同じディレクトリに持っていることで
+- import分を書いて実行できるようになる
+- ここで補完することでチームで使用しやすくなる
+
+## package-lock.json
+
+## package.json
+- ```{
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
+}```
+- dependenciesがサードパーティのライブラリ
+- 数字はそのversion
+- 依存関係を管理する表がある（表：{}の中身）
+- 表を持つという事がjavascriptのデフォルト
+
+
+# ライブラリやversionによって走る走らないがある
+- node_modulesで管理することがjsの基本
