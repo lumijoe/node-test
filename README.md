@@ -31,16 +31,47 @@ nodemonインストールコマンドあり
 ## package-lock.json
 
 ## package.json
-- ```{
-  "dependencies": {
-    "nodemon": "^3.1.10"
-  }
-}```
+- ```
+    {
+    "dependencies": {
+        "nodemon": "^3.1.10"
+    }
+    }
+  ```
 - dependenciesがサードパーティのライブラリ
 - 数字はそのversion
 - 依存関係を管理する表がある（表：{}の中身）
 - 表を持つという事がjavascriptのデフォルト
 
-
-# ライブラリやversionによって走る走らないがある
+## ライブラリやversionによって走る走らないがある
 - node_modulesで管理することがjsの基本
+
+# npm init
+- ```npm init```
+- ターミナル表示
+```It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+
+
+package name: (test) 
+version: (1.0.0) 
+description: 
+entry point: (index.js) 
+test command: 
+git repository: https://github.com/lumijoe/node-test
+keywords: 
+author: lumijoe
+license: (ISC) 
+```
+デフォルトのpackage name はtestですよという意味
+
+- 最後に確認 Is this OK? (yes) 
+
+  - package.jsonもっと中身が追記される
