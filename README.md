@@ -1,9 +1,7 @@
 # node-test
 公式ガイド：検索
 https://www.npmjs.com/
-
-nodemonなど
-インストールコマンドもあり
+nodemonインストールコマンドあり
 ```npm i nodemon```
 
 # 種類について
@@ -12,3 +10,13 @@ nodemonなど
 
 # サードパーティー製
 すぐimportを書いても使えるわけではなく(installが必要)
+
+
+## 手順
+- index.jsを作成
+- ```npm i nodemon```
+  - node_modulesが生成
+  - package-lock.jsonが生成
+  - package.jsonが生成
+  - gitアイコン271の表示
+  - added 30 packages in 1s の表示(node_modulesの中身が多い)
