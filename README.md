@@ -83,4 +83,5 @@ license: (ISC)
 ```npm i lodash```
 - lodash のインストールができる
 - package.jsonでdependenciesをチェック
-- loadashとバージョンが確認できてインストールされているのがわかる
+  - loadashとバージョンが確認できてインストールされているのがわかる
+- node_modulesでlodashがインストールされているのを確認できる
