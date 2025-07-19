@@ -78,3 +78,9 @@ license: (ISC)
 
 ## nodemon server
 ホットリロードが可能になる（保存する度に自動で内容を変更確認できる）
+
+# npm i lodash
+```npm i lodash```
+- lodash のインストールができる
+- package.jsonでdependenciesをチェック
+- loadashとバージョンが確認できてインストールされているのがわかる
