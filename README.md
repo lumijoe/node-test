@@ -75,3 +75,6 @@ license: (ISC)
 - 最後に確認 Is this OK? (yes) 
 
   - package.jsonもっと中身が追記される
+
+## nodemon server
+ホットリロードが可能になる（保存する度に自動で内容を変更確認できる）
