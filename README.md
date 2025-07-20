@@ -86,3 +86,36 @@ license: (ISC)
 - package.jsonでdependenciesをチェック
   - loadashとバージョンが確認できてインストールされているのがわかる
 - node_modulesでlodashがインストールされているのを確認できる
+
+# .gitignore
+- 依存関係
+  node_modules/
+
+- 環境変数
+  .env
+  .env.local
+  .env.*.local
+
+- ログ
+  *.log
+  npm-debug.log*
+
+- OS生成ファイル
+  .DS_Store
+  Thumbs.db
+
+- エディタ設定
+  .vscode/
+  .idea/
+  *.swp
+  *.swo
+
+- ビルド成果物
+  dist/
+  build/
+  *.tsbuildinfo
+
+- テンポラリファイル
+  *.tmp
+  *.temp
+  .cache/
