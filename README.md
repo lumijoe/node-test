@@ -1,3 +1,7 @@
+# 起動
+npm install
+npm run dev
+
 # node-test
 公式ガイド：検索
 https://www.npmjs.com/
@@ -29,6 +33,18 @@ nodemonインストールコマンドあり
 - ここで補完することでチームで使用しやすくなる
 
 ## package-lock.json
+- package.json → ^3.1.10（範囲を指定）
+- package-lock.json → 3.1.11（実際にインストールされた正確なバージョン）
+
+  仕組み：
+  1. npm installを実行
+  2. ^3.1.10の範囲内で最新版（例：3.1.11）をインストール
+  3. package-lock.jsonに3.1.11を固定して記録
+
+  利点：
+  - チーム全員が同じバージョンを使える
+  - npm ciでpackage-lock.json通りの正確なバージョンをインストール
+  - 「自分の環境では動くけど他の環境では動かない」を防げる
 
 ## package.json
 - ```
